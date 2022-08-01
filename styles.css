@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #f2f5f7;
+}
+
+header {
+    background-color: #fff;
+    height: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#nav {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    line-height: 3rem;
+}
+
+#nav .text-header {
+    color: #49a6e9;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li a {
+    color: #063251;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+#nav ul li:hover a {
+    color: #49a6e9;
+}
+
+#container {
+    min-height: calc(100vh - 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-content {
+    color: #fff;
+    background-color: #222;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 0.5rem;
+}
+
+.color {
+    color: #49a6e9;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 40px;
+    color: #222;
+    border: 2px solid #222;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #222;
+    cursor: pointer;
+}
